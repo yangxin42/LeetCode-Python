@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: List[int]
         """
         for i in range(len(nums)):
-            for j in range(n):
+            for j in range(len(nums)):
                 if i != j and target - nums[i] == nums[j]:
                     l = []
                     l.append(i)
