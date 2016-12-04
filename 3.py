@@ -9,7 +9,7 @@ class Solution(object):
         pos = [-1 for i in range(255)]
         while r < len(s):
             if pos[ord(s[r])] == -1:
-                #record the position or character
+                #record the position of character
                 pos[ord(s[r])] = r
                 length += 1
             else:
